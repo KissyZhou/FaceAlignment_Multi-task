@@ -7,5 +7,10 @@
 
 3. some hyperparameters are hard to choose~~~ may be this is the reason of failure~~~
 
+## data augmentation
+
+1. random translation, zoom, rotation, noise, blur, flip, constrast jitter used
+
+2. small jitter is good. check out face images after augmentation
 
 ## there are some tricks get verified in this experiment...
