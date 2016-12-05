@@ -1,0 +1,32 @@
+net: "train_val_deploy.prototxt"
+# the number of interations for test net.
+test_iter: 100
+
+test_interval: 1000
+
+base_lr: 0.0001
+
+lr_policy: "fixed"
+
+momentum: 0.9
+momentum2:0.999
+# for landmark regression use large weight_decay
+weight_decay: 0.004
+
+regularization_type: "L2"
+
+display: 157
+
+max_iter: 157000
+
+snapshot: 157
+
+snapshot_prefix: "model/weights/try_1"
+
+type: "Adam"
+
+solver_mode: GPU
+
+device_id: 0
+
+#debug_info: true
