@@ -1,11 +1,11 @@
 # FaceAlignment_Multi-task
 ## trying to reproduce the result of TCDCN, but failed. 
 
-1. I think the model is just converge at a local optimal, train--15e-4 and val--45e-4. 
+1. I think the model is slightly overfitting, train--1e-4 and val--4e-4. regularzation does not make improvement.
 
-2. the results are poor when come to images cropped by myself(out of test set), it may get better result if crop faces use the method as training set,  but i did not have a try.
+2. the results are poor when come to images cropped by myself(out of test set)
 
-3. some hyperparameters are hard to choose~~~ may be this is the reason of failure~~~
+3. some hyperparameters are hard to choose~~~ may be this is another reason of the poor result~~~
 
 ## data augmentation
 
